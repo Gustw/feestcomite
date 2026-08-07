@@ -1,0 +1,19 @@
+# Hugo generated files
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Hugo
+.hugo_build.lock
+
+# Local tools
+bin/
+

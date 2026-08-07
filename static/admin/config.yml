@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: your-username/site-feestcomite  # Pas dit aan naar je eigen GitHub repo
+  branch: main
+  site_domain: your-username.github.io  # Pas dit aan
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+locale: "nl"
+
+collections:
+  - name: "evenementen"
+    label: "Evenementen"
+    folder: "content/evenementen"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Evenement datum", name: "datum", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - label: "Type evenement"
+        name: "evenement_type"
+        widget: "select"
+        options:
+          - { label: "Kermis", value: "kermis" }
+          - { label: "Ommegang", value: "ommegang" }
+          - { label: "Winterdorp", value: "winterdorp" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "Komend", value: "upcoming" }
+          - { label: "Voorbij (archief)", value: "past" }
+      - { label: "Locatie", name: "locatie", widget: "string", required: false }
+      - { label: "Ondertitel", name: "subtitle", widget: "string", required: false }
+      - { label: "Afbeelding", name: "image", widget: "image", required: false }
+      - label: "Programma"
+        name: "programma"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Tijd", name: "tijd", widget: "string" }
+          - { label: "Beschrijving", name: "beschrijving", widget: "string" }
+      - label: "Links"
+        name: "links"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+      - label: "Foto's"
+        name: "fotos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Foto", name: "image", widget: "image" }
+          - { label: "Bijschrift", name: "caption", widget: "string", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Inhoud", name: "body", widget: "markdown" }
+
+  - name: "paginas"
+    label: "Pagina's"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Ondertitel", name: "subtitle", widget: "string", required: false }
+          - { label: "Inhoud", name: "body", widget: "markdown" }
+      - label: "Over Ons"
+        name: "over-ons"
+        file: "content/over-ons/index.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Inhoud", name: "body", widget: "markdown" }
+

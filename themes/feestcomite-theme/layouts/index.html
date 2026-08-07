@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="container">
+        <h1 class="hero-title">{{ .Title }}</h1>
+        <p class="hero-subtitle">{{ .Params.subtitle | default .Site.Params.description }}</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        {{ .Content }}
+    </div>
+</section>
+
+{{ $upcoming := where (where .Site.RegularPages "Section" "evenementen") ".Params.status" "upcoming" }}
+{{ if $upcoming }}
+<section class="section section-events">
+    <div class="container">
+        <h2 class="section-title">Komende Evenementen</h2>
+        <div class="events-grid">
+            {{ range $upcoming }}
+            <article class="event-card event-card--{{ .Params.evenement_type }}">
+                {{ with .Params.image }}
+                <div class="event-card__image">
+                    <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+                </div>
+                {{ end }}
+                <div class="event-card__content">
+                    <span class="event-card__date">{{ .Params.datum | time.Format "2 January 2006" }}</span>
+                    <h3 class="event-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                    <p class="event-card__excerpt">{{ .Summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn--primary">Meer info</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+

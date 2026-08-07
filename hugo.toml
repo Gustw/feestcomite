@@ -1,0 +1,46 @@
+baseURL = "https://your-username.github.io/site-feestcomite/"
+languageCode = "nl"
+title = "Feestcomité Sint-Denijs"
+theme = "feestcomite-theme"
+
+[params]
+  description = "Het feestcomité van Sint-Denijs organiseert jaarlijks enkele gezellige dorpsevenementen."
+  author = "Feestcomité Sint-Denijs"
+
+[params.colors]
+  primary = "#0F0F60"
+  secondary = "#FF3D17"
+  cream = "#FBF8CE"
+  peach = "#EFBEAC"
+  brown = "#472714"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Evenementen"
+    url = "/evenementen/"
+    weight = 2
+  [[menu.main]]
+    name = "Archief"
+    url = "/archief/"
+    weight = 3
+  [[menu.main]]
+    name = "Over ons"
+    url = "/over-ons/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+
+[taxonomies]
+  tag = "tags"
+  categorie = "categorieen"
+

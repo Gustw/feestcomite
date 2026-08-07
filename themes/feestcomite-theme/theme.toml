@@ -1,0 +1,11 @@
+name = "Feestcomite Theme"
+license = "MIT"
+licenselink = "https://github.com/your-username/site-feestcomite/blob/main/LICENSE"
+description = "Custom theme voor Feestcomité Sint-Denijs"
+
+[author]
+  name = "Feestcomité Sint-Denijs"
+
+[params]
+  description = "Custom Hugo theme voor het Feestcomité Sint-Denijs"
+

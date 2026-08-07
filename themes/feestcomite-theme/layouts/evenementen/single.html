@@ -1,0 +1,71 @@
+{{ define "main" }}
+<article class="event-single event-single--{{ .Params.evenement_type }}">
+    <section class="event-header">
+        <div class="container">
+            <div class="event-meta">
+                <span class="event-meta__type">{{ .Params.evenement_type }}</span>
+                <span class="event-meta__date">{{ .Params.datum | time.Format "2 January 2006" }}</span>
+                {{ with .Params.locatie }}<span class="event-meta__location">📍 {{ . }}</span>{{ end }}
+            </div>
+            <h1>{{ .Title }}</h1>
+            {{ with .Params.subtitle }}<p class="event-subtitle">{{ . }}</p>{{ end }}
+        </div>
+    </section>
+
+    {{ with .Params.image }}
+    <section class="event-hero-image">
+        <div class="container">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+        </div>
+    </section>
+    {{ end }}
+
+    <section class="section">
+        <div class="container event-content">
+            <div class="event-body">
+                {{ .Content }}
+            </div>
+
+            {{ with .Params.programma }}
+            <div class="event-programma">
+                <h2>Programma</h2>
+                <div class="programma-list">
+                    {{ range . }}
+                    <div class="programma-item">
+                        <span class="programma-item__tijd">{{ .tijd }}</span>
+                        <span class="programma-item__beschrijving">{{ .beschrijving }}</span>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            {{ with .Params.links }}
+            <div class="event-links">
+                <h2>Links</h2>
+                <ul>
+                    {{ range . }}
+                    <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+            {{ with .Params.fotos }}
+            <div class="event-fotos">
+                <h2>Foto's</h2>
+                <div class="fotos-grid">
+                    {{ range . }}
+                    <figure class="foto-item">
+                        <img src="{{ .image | relURL }}" alt="{{ .caption }}">
+                        {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+                    </figure>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</article>
+{{ end }}
+
