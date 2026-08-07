@@ -6,13 +6,16 @@ theme = "feestcomite-theme"
 [params]
   description = "Het feestcomité van Sint-Denijs organiseert jaarlijks enkele gezellige dorpsevenementen."
   author = "Feestcomité Sint-Denijs"
+  # Bij hoofdletters: FEESTCOMITE (met E, zonder accent)
+  titleUppercase = "FEESTCOMITE SINT-DENIJS"
 
 [params.colors]
-  primary = "#0F0F60"
-  secondary = "#FF3D17"
+  primary = "#472714"
+  secondary = "#EFBEAC"
   cream = "#FBF8CE"
   peach = "#EFBEAC"
   brown = "#472714"
+  accent = "#FF3D17"
 
 [menu]
   [[menu.main]]
