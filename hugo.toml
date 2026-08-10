@@ -1,12 +1,12 @@
 baseURL = "https://feestcomitesintdenijs.be/"
 languageCode = "nl"
-title = "Feestcomité Sint-Denijs"
+title = "Feestcomite Sint-Denijs"
 theme = "feestcomite-theme"
 buildFuture = true
 
 [params]
   description = "Het feestcomité van Sint-Denijs organiseert jaarlijks enkele gezellige dorpsevenementen."
-  author = "Feestcomité Sint-Denijs"
+  author = "Feestcomite Sint-Denijs"
   # Bij hoofdletters: FEESTCOMITE (met E, zonder accent)
   titleUppercase = "FEESTCOMITE SINT-DENIJS"
 

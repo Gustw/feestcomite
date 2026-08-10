@@ -36,22 +36,8 @@
 
     <footer class="site-footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>{{ .Site.Title }}</h3>
-                    <p>{{ .Site.Params.description }}</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigatie</h4>
-                    <ul>
-                        {{ range .Site.Menus.main }}
-                        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </div>
             <div class="footer-bottom">
-                <p>&copy; {{ now.Year }} {{ .Site.Title }}. Alle rechten voorbehouden.</p>
+                <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
             </div>
         </div>
     </footer>
