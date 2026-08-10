@@ -466,13 +466,13 @@ p {
 }
 
 .event-hero-image {
-    margin-top: calc(-1 * var(--space-lg));
-    padding: 0 0 var(--space-lg);
+    padding: var(--space-lg) 0;
 }
 
 .event-hero-image img {
     border-radius: var(--border-radius-lg);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .event-content {

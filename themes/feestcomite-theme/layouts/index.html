@@ -18,7 +18,7 @@
     <div class="container">
         <h2 class="section-title">Komende Evenementen</h2>
         <div class="events-grid">
-            {{ range $upcoming }}
+            {{ range $upcoming.ByDate }}
             <article class="event-card event-card--{{ .Params.evenement_type }}">
                 {{ with .Params.image }}
                 <div class="event-card__image">

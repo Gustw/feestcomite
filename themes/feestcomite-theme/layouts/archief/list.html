@@ -13,7 +13,7 @@
 
         {{ if $past }}
         <div class="events-grid">
-            {{ range $past }}
+            {{ range $past.ByDate.Reverse }}
             <article class="event-card event-card--{{ .Params.evenement_type }} event-card--past">
                 {{ with .Params.image }}
                 <div class="event-card__image">
