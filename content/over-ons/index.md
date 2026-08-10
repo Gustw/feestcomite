@@ -18,7 +18,7 @@ Wij geloven dat een actief dorpsleven de lijm is die een gemeenschap samenhoudt.
 
 Heb je vragen, suggesties of wil je graag vrijwilliger worden? Stuur ons een berichtje!
 
-- 📧 E-mail: feestcomite@sint-denijs.be
+- 📧 E-mail: sintdenijs.feestcomite@gmail.com
 - 📱 Facebook: Feestcomité Sint-Denijs
 - 📍 Sint-Denijs, België
 

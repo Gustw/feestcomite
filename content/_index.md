@@ -1,9 +1,9 @@
 ---
-title: "Feestcomité Sint-Denijs"
+title: "Feestcomite Sint-Denijs"
 subtitle: "Samen maken we er een feest van!"
 ---
 
-## Welkom bij het Feestcomité Sint-Denijs
+## Welkom bij het Feestcomite Sint-Denijs
 
 Wij zijn een enthousiaste groep vrijwilligers die het hele jaar door werken om Sint-Denijs te laten bruisen. Van de jaarlijkse kermis tot de sfeervolle winterdorp-editie en de legendarische ommegang — wij zorgen voor onvergetelijke momenten in ons dorp.
 
