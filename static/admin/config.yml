@@ -2,8 +2,7 @@ backend:
   name: github
   repo: gustw/feestcomite
   branch: master
-  auth_type: pkce
-  app_id: Ov23lisAQfftVAbpeYdP
+  base_url: https://sveltia-cms-auth.gust-wittevrongel.workers.dev
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
