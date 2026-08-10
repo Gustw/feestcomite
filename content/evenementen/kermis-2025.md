@@ -3,7 +3,6 @@ title: "Kermis Sint-Denijs 2025"
 date: 2025-09-13
 einddatum: 2025-09-14
 evenement_type: "kermis"
-status: "past"
 locatie: "Dorpsplein Sint-Denijs"
 subtitle: "Een geslaagde editie met nieuw record bezoekers"
 image: "/images/events/kermis-placeholder.svg"
@@ -25,15 +24,9 @@ tags:
   - kermis
   - 2025
 ---
-
 De kermis 2025 was een fantastisch weekend! Ondanks een buitje op vrijdagavond kwamen meer dan 500 bezoekers langs op het dorpsplein.
-
 ## Hoogtepunten
-
 - De goochelaar op zaterdagmiddag was een voltreffer bij de kinderen
 - Het varkensbraad was binnen het uur uitverkocht
 - De coverband zorgde voor een kolkende dansvloer
-
 Bedankt aan iedereen die er was! We zien jullie terug in 2026!
-
-

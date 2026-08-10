@@ -12,13 +12,21 @@
     </div>
 </section>
 
-{{ $upcoming := where (where .Site.RegularPages "Section" "evenementen") ".Params.status" "upcoming" }}
+{{ $now := now }}
+{{ $upcoming := slice }}
+{{ range where .Site.RegularPages "Section" "evenementen" }}
+    {{ $compareDate := .Date }}
+    {{ with .Params.einddatum }}{{ $compareDate = (time .) }}{{ end }}
+    {{ if ge $compareDate $now }}
+        {{ $upcoming = $upcoming | append . }}
+    {{ end }}
+{{ end }}
 {{ if $upcoming }}
 <section class="section section-events">
     <div class="container">
         <h2 class="section-title">Komende Evenementen</h2>
         <div class="events-grid">
-            {{ range $upcoming.ByDate }}
+            {{ range sort $upcoming "Date" "asc" }}
             <article class="event-card event-card--{{ .Params.evenement_type }}">
                 {{ with .Params.image }}
                 <div class="event-card__image">

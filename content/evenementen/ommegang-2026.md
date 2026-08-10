@@ -2,7 +2,6 @@
 title: "Ommegang Sint-Denijs 2026"
 date: 2026-06-15
 evenement_type: "ommegang"
-status: "past"
 locatie: "Door het centrum van Sint-Denijs"
 subtitle: "Traditie ontmoet feest in onze jaarlijkse stoet"
 image: "/images/events/ommegang-placeholder.svg"
@@ -35,22 +34,13 @@ tags:
   - ommegang
   - 2026
 ---
-
 De Ommegang 2026 was opnieuw een schot in de roos! Met stralend weer en een recordopkomst was het een dag om nooit te vergeten.
-
 ## Terugblik
-
 Dit jaar stapten meer dan 200 deelnemers mee in de stoet die door het hart van Sint-Denijs trok. Van historische groepen tot de plaatselijke jeugdverenigingen — iedereen deed enthousiast mee.
-
 ## Hoogtepunten
-
 - De reuzen van Sint-Denijs dansten voor het eerst in 5 jaar opnieuw mee
 - Het nieuwe thema "Verhalen van vroeger" bracht prachtige kostuums
 - De volkslunch bracht meer dan 300 dorpsgenoten samen aan tafel
 - Het avondfeest duurde tot ver na middernacht
-
 ## Bedankt!
-
 Een dikke merci aan alle vrijwilligers, deelnemers, sponsors en bezoekers. Zonder jullie is er geen Ommegang. Tot volgend jaar!
-
-

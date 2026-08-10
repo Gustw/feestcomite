@@ -8,12 +8,19 @@
 
 <section class="section">
     <div class="container">
-        {{ $pages := where .Site.RegularPages "Section" "evenementen" }}
-        {{ $past := where $pages ".Params.status" "past" }}
+        {{ $now := now }}
+        {{ $past := slice }}
+        {{ range where .Site.RegularPages "Section" "evenementen" }}
+            {{ $compareDate := .Date }}
+            {{ with .Params.einddatum }}{{ $compareDate = (time .) }}{{ end }}
+            {{ if lt $compareDate $now }}
+                {{ $past = $past | append . }}
+            {{ end }}
+        {{ end }}
 
         {{ if $past }}
         <div class="events-grid">
-            {{ range $past.ByDate.Reverse }}
+            {{ range sort $past "Date" "desc" }}
             <article class="event-card event-card--{{ .Params.evenement_type }} event-card--past">
                 {{ with .Params.image }}
                 <div class="event-card__image">

@@ -3,7 +3,6 @@ title: "Kermis Sint-Denijs 2026"
 date: 2026-09-12
 einddatum: 2026-09-14
 evenement_type: "kermis"
-status: "upcoming"
 locatie: "Dorpsplein Sint-Denijs"
 subtitle: "Drie dagen feest in het hart van ons dorp"
 image: "/images/uploads/kermis-2026.jpg"
@@ -47,26 +46,16 @@ tags:
   - kermis
   - 2026
 ---
-
 De jaarlijkse kermis van Sint-Denijs staat weer voor de deur! Van vrijdag 12 tot zondag 14 september wordt het dorpsplein omgetoverd tot een gezellig feestterrein.
-
 ![Kermis Sint-Denijs](/images/uploads/kermis-2026.jpg)
-
 ## Wat mag je verwachten?
-
 Dit jaar pakken we uit met een vernieuwd programma:
-
 - **Vrijdag**: Officiele opening met tap en hapjes
 - **Zaterdag**: De grote kermisdag met attracties, kinderspelen en 's avonds live muziek
 - **Zondag**: Familiedag met brunch en afsluiter
-
 ## Praktische info
-
 - **Waar**: Dorpsplein Sint-Denijs
 - **Wanneer**: 12-14 september 2026
 - **Parking**: Achter de kerk en aan de sporthal
 - **Toegang**: Gratis!
-
 Breng je buren mee en kom genieten van een onvergetelijk kermisweekend!
-
-
