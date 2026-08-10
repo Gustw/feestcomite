@@ -2,6 +2,8 @@ backend:
   name: github
   repo: gustw/feestcomite
   branch: main
+  auth_type: pkce
+  app_id: Ov23lisAQfftVAbpeYdP
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
