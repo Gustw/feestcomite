@@ -36,7 +36,10 @@
                     {{ end }}
                     <div class="programma-item">
                         <span class="programma-item__tijd">{{ .tijd }}</span>
-                        <span class="programma-item__beschrijving">{{ .beschrijving }}</span>
+                        <span class="programma-item__beschrijving">
+                            {{- .beschrijving -}}
+                            {{- with .link }} <a href="{{ . }}" class="programma-item__link" target="_blank" rel="noopener">→ link</a>{{ end -}}
+                        </span>
                     </div>
                     {{ end }}
                 </div>

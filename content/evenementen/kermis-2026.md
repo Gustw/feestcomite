@@ -13,6 +13,7 @@ programma:
   - dag: "Vrijdag 12 september"
     tijd: "19:00"
     beschrijving: "BBQ en tapas (inschrijven verplicht)"
+    link: "https://example.com/bbq"
   - dag: "Vrijdag 12 september"
     tijd: "21:00"
     beschrijving: "DJ set tot in de vroege uurtjes"

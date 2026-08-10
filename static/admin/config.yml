@@ -36,6 +36,7 @@ collections:
           - { label: "Dag (bv. Vrijdag 12 sept)", name: "dag", widget: "string", required: false }
           - { label: "Tijd", name: "tijd", widget: "string" }
           - { label: "Beschrijving", name: "beschrijving", widget: "string" }
+          - { label: "Link URL (optioneel)", name: "link", widget: "string", required: false }
       - label: "Links"
         name: "links"
         widget: "list"
