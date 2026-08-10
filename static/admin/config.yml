@@ -1,8 +1,7 @@
 backend:
   name: github
-  repo: your-username/site-feestcomite  # Pas dit aan naar je eigen GitHub repo
+  repo: gustw/feestcomite
   branch: main
-  site_domain: your-username.github.io  # Pas dit aan
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
