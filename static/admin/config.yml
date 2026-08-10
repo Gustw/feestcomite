@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: gustw/feestcomite
-  branch: main
+  branch: master
   auth_type: pkce
   app_id: Ov23lisAQfftVAbpeYdP
 
