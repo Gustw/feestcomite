@@ -74,4 +74,12 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Inhoud", name: "body", widget: "markdown" }
+      - label: "Archief"
+        name: "archief"
+        file: "content/archief/_index.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "list" }
+          - { label: "Type", name: "type", widget: "hidden", default: "archief" }
+          - { label: "Inhoud", name: "body", widget: "markdown", required: false }
 
