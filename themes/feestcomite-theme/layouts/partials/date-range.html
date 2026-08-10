@@ -1,0 +1,16 @@
+{{- $start := .Date -}}
+{{- $end := .Params.einddatum -}}
+{{- if $end -}}
+  {{- $startDate := $start | time.Format "2" -}}
+  {{- $endDate := $end | time.Format "2 January 2006" -}}
+  {{- $startMonth := $start | time.Format "January" -}}
+  {{- $endMonth := $end | time.Format "January" -}}
+  {{- if eq $startMonth $endMonth -}}
+    {{ $startDate }} - {{ $endDate }}
+  {{- else -}}
+    {{ $start | time.Format "2 January" }} - {{ $endDate }}
+  {{- end -}}
+{{- else -}}
+  {{ $start | time.Format "2 January 2006" }}
+{{- end -}}
+

@@ -1,7 +1,7 @@
 ---
 title: "Kermis Sint-Denijs 2025"
 date: 2025-09-13
-datum: 2025-09-13
+einddatum: 2025-09-14
 evenement_type: "kermis"
 status: "past"
 locatie: "Dorpsplein Sint-Denijs"

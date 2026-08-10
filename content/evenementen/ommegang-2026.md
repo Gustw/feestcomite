@@ -1,7 +1,6 @@
 ---
 title: "Ommegang Sint-Denijs 2026"
 date: 2026-06-15
-datum: 2026-06-15
 evenement_type: "ommegang"
 status: "past"
 locatie: "Door het centrum van Sint-Denijs"

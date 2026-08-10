@@ -22,7 +22,7 @@
                 </div>
                 {{ end }}
                 <div class="event-card__content">
-                    <span class="event-card__date">{{ .Params.datum | time.Format "2 January 2006" }}</span>
+                    <span class="event-card__date">{{ partial "date-range.html" . }}</span>
                     <span class="event-card__type">{{ .Params.evenement_type }}</span>
                     <h3 class="event-card__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                     <p class="event-card__excerpt">{{ .Summary }}</p>

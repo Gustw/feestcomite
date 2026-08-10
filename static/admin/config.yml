@@ -16,8 +16,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Datum", name: "date", widget: "datetime" }
-      - { label: "Evenement datum", name: "datum", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Startdatum", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Einddatum (optioneel, voor meerdaagse events)", name: "einddatum", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: false }
       - label: "Type evenement"
         name: "evenement_type"
         widget: "select"

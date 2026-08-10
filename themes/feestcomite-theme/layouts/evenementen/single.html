@@ -4,7 +4,7 @@
         <div class="container">
             <div class="event-meta">
                 <span class="event-meta__type">{{ .Params.evenement_type }}</span>
-                <span class="event-meta__date">{{ .Params.datum | time.Format "2 January 2006" }}</span>
+                <span class="event-meta__date">{{ partial "date-range.html" . }}</span>
                 {{ with .Params.locatie }}<span class="event-meta__location">📍 {{ . }}</span>{{ end }}
             </div>
             <h1>{{ .Title }}</h1>

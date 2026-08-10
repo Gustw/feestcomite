@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-datum: {{ .Date | time.Format "2006-01-02" }}
+einddatum: 
 evenement_type: ""
 status: "upcoming"
 locatie: "Dorpsplein Sint-Denijs"

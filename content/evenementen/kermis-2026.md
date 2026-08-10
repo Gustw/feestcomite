@@ -1,7 +1,7 @@
 ---
 title: "Kermis Sint-Denijs 2026"
 date: 2026-09-12
-datum: 2026-09-12
+einddatum: 2026-09-14
 evenement_type: "kermis"
 status: "upcoming"
 locatie: "Dorpsplein Sint-Denijs"
