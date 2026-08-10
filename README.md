@@ -2,89 +2,100 @@
 
 Officiële website van het Feestcomité Sint-Denijs, gebouwd met [Hugo](https://gohugo.io/) en gehost op GitHub Pages.
 
+**Live site**: https://www.feestcomitesintdenijs.be  
+**CMS**: https://www.feestcomitesintdenijs.be/admin/  
+**Handleiding**: zie `HANDLEIDING.md`
+
 ## 🚀 Technologie
 
 - **Static Site Generator**: [Hugo](https://gohugo.io/) (Extended)
-- **CMS**: [Decap CMS](https://decapcms.org/) (voorheen Netlify CMS)
+- **CMS**: [Sveltia CMS](https://github.com/sveltia/sveltia-cms) (open source, drop-in Decap CMS vervanging)
 - **Hosting**: GitHub Pages
 - **CI/CD**: GitHub Actions
+- **Authenticatie**: [Sveltia CMS Auth](https://github.com/sveltia/sveltia-cms-auth) (Cloudflare Worker)
+- **Domein**: www.feestcomitesintdenijs.be
 
 ## 📁 Structuur
 
 ```
 site-feestcomite/
-├── content/              # Alle inhoud (Markdown bestanden)
-│   ├── _index.md         # Homepage
-│   ├── over-ons/         # Over ons pagina
-│   ├── evenementen/      # Evenementen (komend + archief)
-│   └── archief/          # Archief overzichtspagina
+├── content/                # Alle inhoud (Markdown bestanden)
+│   ├── _index.md           # Homepage
+│   ├── over-ons/           # Over ons pagina
+│   ├── evenementen/        # Alle evenementen (komend + archief, automatisch)
+│   └── archief/            # Archief overzichtspagina (_index.md)
 ├── static/
-│   ├── admin/            # Decap CMS configuratie
-│   └── images/           # Uploads en afbeeldingen
+│   ├── admin/              # CMS configuratie (config.yml + index.html)
+│   ├── images/uploads/     # Geüploade afbeeldingen
+│   └── CNAME               # Custom domain configuratie
 ├── themes/
-│   └── feestcomite-theme/  # Custom thema
-├── .github/workflows/    # GitHub Actions (auto-deploy)
-└── hugo.toml             # Hugo configuratie
+│   └── feestcomite-theme/  # Custom thema (layouts, CSS, fonts, logo)
+├── .github/workflows/      # GitHub Actions (auto-deploy bij push)
+├── hugo.toml               # Hugo configuratie
+├── HANDLEIDING.md          # Gebruikershandleiding (Nederlands)
+└── README.md               # Dit bestand
 ```
 
 ## ✏️ Content Beheren
 
 ### Via het CMS (aanbevolen)
 
-1. Ga naar `https://jouw-site.github.io/site-feestcomite/admin/`
-2. Log in met je GitHub account
+1. Ga naar https://www.feestcomitesintdenijs.be/admin/
+2. Log in met het GitHub-account dat toegang heeft
 3. Bewerk pagina's, voeg evenementen toe, upload foto's
-4. Klik op "Publiceren" — de site wordt automatisch bijgewerkt
+4. Klik op "Publiceren" — de site wordt automatisch bijgewerkt (±2 min)
 
 ### Via bestanden (geavanceerd)
 
 1. Bewerk Markdown bestanden in de `content/` map
-2. Commit en push naar `main`
+2. Commit en push naar `master`
 3. GitHub Actions bouwt en deployt automatisch
 
 ## 🎨 Evenementen beheren
 
 ### Nieuw evenement toevoegen
 - Ga naar CMS → Evenementen → Nieuw
-- Vul de details in (titel, datum, type, programma, etc.)
-- Zet status op "Komend"
-
-### Evenement archiveren
-- Open het evenement in het CMS
-- Verander status van "Komend" naar "Voorbij (archief)"
-- Voeg eventueel foto's toe als terugblik
+- Vul de details in (titel, startdatum, einddatum, type, programma, etc.)
 - Publiceer
+
+### Automatisch archiveren
+- Evenementen verhuizen **automatisch** naar het archief zodra de (eind)datum voorbij is
+- Je hoeft niets handmatig te doen
+
+### Meerdaags evenement
+- Vul zowel **Startdatum** als **Einddatum** in
+- Het programma kan per dag gegroepeerd worden via het "Dag" veld
 
 ## 🏗️ Lokaal ontwikkelen
 
 ```bash
 # Hugo installeren (https://gohugo.io/installation/)
-# Dan:
-hugo server -D
+hugo server -D --buildFuture
 ```
 
 De site draait dan op `http://localhost:1313/`
 
-## 🔧 GitHub Pages instellen
+## 🔧 Configuratie
 
-1. Maak een GitHub repository aan
-2. Pas `hugo.toml` aan:
-   - `baseURL` → je GitHub Pages URL
-3. Pas `static/admin/config.yml` aan:
-   - `repo` → je GitHub username/repo
-4. Push alle bestanden naar de `main` branch
-5. Ga naar Repository Settings → Pages → Source: "GitHub Actions"
-6. De site wordt automatisch gedeployd
+### GitHub Pages
+- Repository Settings → Pages → Source: "GitHub Actions"
+- Custom domain: `www.feestcomitesintdenijs.be`
+- Enforce HTTPS: aan
 
-## 📋 CMS Authenticatie instellen
+### CMS Authenticatie (Cloudflare Worker)
+- Worker: `sveltia-cms-auth.gust-wittevrongel.workers.dev`
+- Environment variables:
+  - `GITHUB_CLIENT_ID`: OAuth App Client ID
+  - `GITHUB_CLIENT_SECRET`: OAuth App Client Secret
+  - `ALLOWED_DOMAINS`: `www.feestcomitesintdenijs.be,feestcomitesintdenijs.be,gustw.github.io`
 
-Om het CMS te laten werken met GitHub:
+### GitHub OAuth App
+- Authorization callback URL: `https://sveltia-cms-auth.gust-wittevrongel.workers.dev/callback`
 
-1. Ga naar [GitHub OAuth Apps](https://github.com/settings/developers)
-2. Of gebruik de ingebouwde GitHub backend (aanbevolen voor kleine teams)
-3. Meer info: [Decap CMS Authentication](https://decapcms.org/docs/authentication-backends/)
+### DNS (Theory7)
+- 4x A-record `@` → GitHub Pages IPs (185.199.108-111.153)
+- CNAME `www` → `gustw.github.io`
 
 ## 📄 Licentie
 
 MIT License - Vrij te gebruiken en aan te passen.
-
