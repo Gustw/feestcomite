@@ -466,12 +466,12 @@ p {
 }
 
 .event-hero-image {
-    padding: var(--space-lg) 0;
+    margin-bottom: var(--space-xl);
 }
 
 .event-hero-image img {
     border-radius: var(--border-radius-lg);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     width: 100%;
 }
 

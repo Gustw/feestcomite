@@ -12,16 +12,14 @@
         </div>
     </section>
 
-    {{ with .Params.image }}
-    <section class="event-hero-image">
-        <div class="container">
-            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
-        </div>
-    </section>
-    {{ end }}
-
     <section class="section">
         <div class="container event-content">
+            {{ with .Params.image }}
+            <div class="event-hero-image">
+                <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+            </div>
+            {{ end }}
+
             <div class="event-body">
                 {{ .Content }}
             </div>
