@@ -39,6 +39,7 @@ collections:
         widget: "list"
         required: false
         fields:
+          - { label: "Dag (bv. Vrijdag 12 sept)", name: "dag", widget: "string", required: false }
           - { label: "Tijd", name: "tijd", widget: "string" }
           - { label: "Beschrijving", name: "beschrijving", widget: "string" }
       - label: "Links"

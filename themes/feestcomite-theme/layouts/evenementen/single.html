@@ -30,7 +30,12 @@
             <div class="event-programma">
                 <h2>Programma</h2>
                 <div class="programma-list">
+                    {{ $currentDay := "" }}
                     {{ range . }}
+                    {{ if and .dag (ne .dag $currentDay) }}
+                    {{ $currentDay = .dag }}
+                    <h3 class="programma-dag">{{ .dag }}</h3>
+                    {{ end }}
                     <div class="programma-item">
                         <span class="programma-item__tijd">{{ .tijd }}</span>
                         <span class="programma-item__beschrijving">{{ .beschrijving }}</span>

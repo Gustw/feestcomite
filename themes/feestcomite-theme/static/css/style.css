@@ -511,6 +511,19 @@ p {
     border-left: 4px solid var(--color-accent);
 }
 
+.programma-dag {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin: var(--space-md) 0 var(--space-sm);
+    padding-bottom: var(--space-xs);
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.programma-dag:first-child {
+    margin-top: 0;
+}
+
 .programma-item__tijd {
     font-family: var(--font-mono);
     font-weight: 700;
