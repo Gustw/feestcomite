@@ -488,6 +488,13 @@ p {
     margin-top: var(--space-xl);
 }
 
+.event-body img {
+    border-radius: var(--border-radius);
+    margin: var(--space-lg) 0;
+    width: 100%;
+    height: auto;
+}
+
 /* --- Programma --- */
 .event-programma {
     margin-top: var(--space-xl);
