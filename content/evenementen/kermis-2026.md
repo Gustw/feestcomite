@@ -5,7 +5,7 @@ einddatum: 2026-09-20
 evenement_type: kermis
 locatie: Kerkplein Sint-Denijs
 subtitle: Drie dagen feest in het hart van ons dorp
-image: /images/uploads/Instagram post - algemeen kermis (2).png
+image: /images/uploads/Kermis 2027-website.png
 programma:
   - dag: Vrijdag 18 september
     tijd: 18:00
@@ -53,7 +53,6 @@ tags:
 ---
 
 De jaarlijkse kermis van Sint-Denijs staat weer voor de deur! Van vrijdag 19 tot zondag 20 september wordt het dorpsplein omgetoverd tot een gezellig feestterrein.
-
 
 ## Wat mag je verwachten?
 
