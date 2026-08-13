@@ -5,7 +5,7 @@ einddatum: 2026-09-14
 evenement_type: kermis
 locatie: Dorpsplein Sint-Denijs
 subtitle: Drie dagen feest in het hart van ons dorp
-image: /images/uploads/Instagram post - algemeen kermis 2026.png
+image: /images/uploads/Instagram post - algemeen kermis (2).png
 programma:
   - dag: Vrijdag 18 september
     tijd: 18:00
