@@ -7,7 +7,7 @@ locatie: Kerkplein Sint-Denijs
 subtitle: Drie dagen feest in het hart van ons dorp
 image: /images/uploads/Kermis 2027-website.png
 programma:
-  - dag: Vrijdag 18 september
+  - dag: Vrijdag 18 september • KERKPLEIN
     tijd: 18:00
     beschrijving: De gekke kermisloop voor jong en oud
     link: gekkekermisloop@gmail.com
@@ -15,11 +15,11 @@ programma:
     tijd: 19:00
     beschrijving: Kaas- en wijnavond • Harmonie De Verenigde Vrienden o.l.v. Wouter Vangheluwe
     link: kaarten@de-verenigde-vrienden.be
-  - dag: Zaterdag 19 september
+  - dag: Zaterdag 19 september • CAFE MAURICE
     tijd: 13:00
     beschrijving: Wielerwedstrijd Meisjes ind./jun. 1.16 + U17
     link: ''
-  - dag: Zaterdag 19 september
+  - dag: Zaterdag 19 september • CAFE MAURICE
     tijd: 15:30
     beschrijving: Wielerwedstrijd Juniors U19
     link: ''
@@ -43,6 +43,10 @@ programma:
     tijd: 13:00
     beschrijving: Bakwedstrijd
     link: https://forms.gle/dgbcymnKKM2pAkix5
+  - dag: Zondag 20 september • KERKPLEIN
+    tijd: 11:00 tot 18:00
+    beschrijving: Bingo met Ringo
+    link: ''
 links:
   - label: Inschrijving Rommelmarkt
     url: https://forms.gle/q2q3CwvUBqpw46Su9
