@@ -68,7 +68,7 @@ tags:
   - 2026
 ---
 
-De jaarlijkse kermis van Sint-Denijs staat weer voor de deur! Van vrijdag 19 tot zondag 20 september wordt het dorpsplein omgetoverd tot een gezellig feestterrein.
+De jaarlijkse kermis van Sint-Denijs staat weer voor de deur! Van vrijdag 18 tot zondag 20 september wordt het dorpsplein omgetoverd tot een gezellig feestterrein.
 
 ## Wat mag je verwachten?
 
