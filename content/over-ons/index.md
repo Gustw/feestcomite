@@ -1,24 +1,26 @@
 ---
-title: "Over Ons"
+title: Over Ons
 ---
 
-## Wie zijn wij?
+# Wie zijn wij?
 
-Het Feestcomité Sint-Denijs is een groep van gedreven vrijwilligers die al meer dan 20 jaar het sociale leven in ons dorp verrijkt. Wat begon als een klein initiatief om de jaarlijkse kermis nieuw leven in te blazen, is uitgegroeid tot een hecht team dat drie grote evenementen per jaar organiseert.
+Het Feestcomité Sint-Denijs is een groep van een 15-tal enthousiaste vrijwilligers die zich sinds twee jaar inzet voor ons dorp. We hebben het comité overgenomen van een fantastische ploeg die jarenlang mooie activiteiten organiseerde en veel mensen samenbracht. Die traditie zetten we met veel plezier verder.
+
+Hoewel we nog maar twee jaar bezig zijn, hebben we ondertussen al een paaseierenraap, twee ommegangen en een kermis georganiseerd. En dat is nog maar het begin. We doen dit allemaal vrijwillig, met één doel: mensen samenbrengen en zorgen voor gezellige momenten in Sint-Denijs.
 
 ## Ons Team
 
-Ons comité bestaat uit een 15-tal enthousiaste dorpsgenoten die elk hun eigen talenten en expertise inbrengen. Van logistiek en financiën tot communicatie en decoratie — iedereen draagt bij op zijn of haar manier.
+Ons comité bestaat uit een 15-tal dorpsgenoten die graag de handen uit de mouwen steken. Iedereen helpt waar hij of zij kan: van de praktische organisatie en communicatie tot het opbouwen, versieren en opruimen. Samen vormen we een leuke groep die zich met veel goesting inzet voor het dorp.
 
 ## Onze Missie
 
-Wij geloven dat een actief dorpsleven de lijm is die een gemeenschap samenhoudt. Onze evenementen brengen mensen samen, creëren herinneringen en zorgen ervoor dat Sint-Denijs een warm en levendig dorp blijft.
+Wij vinden het belangrijk dat er in het dorp dingen blijven gebeuren waar jong en oud van kunnen genieten. Met onze activiteiten willen we mensen samenbrengen, buren leren kennen en mooie herinneringen creëren. Zo houden we Sint-Denijs levendig, gezellig en verbonden.
 
 ## Contact
 
-Heb je vragen, suggesties of wil je graag vrijwilliger worden? Stuur ons een berichtje!
+Heb je een vraag, een idee of wil je graag meehelpen? Laat gerust iets van je horen!
 
-- 📧 E-mail: sintdenijs.feestcomite@gmail.com
-- 📱 Facebook: Feestcomité Sint-Denijs
-- 📍 Sint-Denijs, België
-
+📧 E-mail: [sintdenijs.feestcomite@gmail.com](mailto:sintdenijs.feestcomite@gmail.com)
+📱 Facebook: [Feestcomité Sint-Denijs](https://www.facebook.com/share/19H2gyZ7P2/)
+📸 Instagram: [Feestcomité Sint-Denijs](https://www.instagram.com/feestcomitesintdenijs?igsh=MTEydzU5ZWlmcDNs)
+📍 Sint-Denijs, België
