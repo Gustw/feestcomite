@@ -50,7 +50,15 @@ links:
     url: https://forms.gle/dgbcymnKKM2pAkix5
   - label: 'Inschrijving per mail: Gekke Kermis loop'
     url: gekkekermisloop@gmail.com
-fotos: []
+fotos:
+  - image: /images/uploads/PXL_20250919_162619992 (1).jpg
+    caption: ''
+  - image: /images/uploads/WhatsApp Image 2026-07-07 at 21.49.47.jpeg
+    caption: ''
+  - image: /images/uploads/20250921_104301.jpg
+    caption: ''
+  - image: /images/uploads/20250921_140423.jpg
+    caption: ''
 tags:
   - kermis
   - 2026
