@@ -38,14 +38,14 @@ programma:
   - dag: Zondag 20 september • KERKPLEIN
     tijd: 10:00
     beschrijving: Rommelmarkt
-    link: ''
+    link: https://forms.gle/q2q3CwvUBqpw46Su9
   - dag: Zondag 20 september • KERKPLEIN
     tijd: 13:00
     beschrijving: Bakwedstrijd
     link: https://forms.gle/dgbcymnKKM2pAkix5
 links:
-  - label: Facebook evenement
-    url: https://facebook.com/events/example
+  - label: Inschrijving Rommelmarkt
+    url: https://forms.gle/q2q3CwvUBqpw46Su9
 fotos: []
 tags:
   - kermis
