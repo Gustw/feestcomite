@@ -2,11 +2,17 @@
 <section class="page-header">
     <div class="container">
         <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="page-subtitle">{{ . }}</p>{{ end }}
     </div>
 </section>
 
 <section class="section">
     <div class="container">
+        {{ with .Params.image }}
+        <div class="page-hero-image">
+            <img src="{{ . | relURL }}" alt="{{ $.Title }}">
+        </div>
+        {{ end }}
         {{ .Content }}
     </div>
 </section>

@@ -101,6 +101,33 @@ Na een evenement kun je foto's toevoegen:
 
 ---
 
+## Losse pagina's (niet in het menu)
+
+Soms wil je een pagina maken die **niet** in het hoofdmenu verschijnt, maar wel bereikbaar is via een directe link — bijvoorbeeld een inschrijfformulier, een dankwoord voor sponsors, of extra info die je alleen via e-mail of Facebook deelt.
+
+### Een losse pagina aanmaken
+
+1. Klik in het menu links op **"Losse pagina's (niet in menu)"**
+2. Klik op **"Nieuwe Losse pagina"** (knop rechtsboven)
+3. Vul in:
+   - **Titel**: de titel van de pagina
+   - **Ondertitel**: korte ondertitel (optioneel)
+   - **Afbeelding**: een hoofdafbeelding (optioneel)
+   - **Inhoud**: de tekst van de pagina
+4. Klik op **"Publiceren"**
+
+### Waar is de pagina te vinden?
+
+De pagina verschijnt **niet** in het menu, maar is bereikbaar op:
+
+```
+https://feestcomitesintdenijs.be/paginas/<naam-van-de-pagina>/
+```
+
+Na het publiceren zie je de volledige link staan bovenaan de pagina in het CMS ("Preview" of "Bekijk live"). Kopieer die link om ernaar te verwijzen vanuit een e-mail, Facebook-post of vanuit de inhoud van een andere pagina/evenement (via een link in de tekst of bij "Links").
+
+---
+
 ## Afbeeldingen
 
 ### Hoofdafbeelding van een evenement
@@ -138,6 +165,7 @@ In elk tekstveld kun je ook foto's tussenvoegen:
 | **Evenementen** | Alle toekomstige evenementen |
 | **Archief** | Voorbije evenementen (automatisch op basis van datum) |
 | **Over ons** | Informatie over het comité |
+| **Losse pagina's** | Extra pagina's, enkel bereikbaar via directe link (niet in menu) |
 
 ---
 

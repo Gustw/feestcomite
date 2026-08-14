@@ -54,6 +54,19 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Inhoud", name: "body", widget: "markdown" }
 
+  - name: "losse-paginas"
+    label: "Losse pagina's (niet in menu)"
+    label_singular: "Losse pagina"
+    description: "Pagina's die enkel bereikbaar zijn via een directe link (bv. vanuit een ander evenement of e-mail), en niet in het menu verschijnen."
+    folder: "content/paginas"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Ondertitel", name: "subtitle", widget: "string", required: false }
+      - { label: "Afbeelding", name: "image", widget: "image", required: false }
+      - { label: "Inhoud", name: "body", widget: "markdown" }
+
   - name: "paginas"
     label: "Pagina's"
     files:
