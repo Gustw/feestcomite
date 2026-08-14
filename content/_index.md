@@ -11,7 +11,7 @@ Rommelmarkt opstart om **9:00** en start om **10:00** • Inschrijven via [formu
 
 Bakwedstrijd indienen taart **13:00** jureren om **14:00** • Inschrijven via [formulier](https://forms.gle/dgbcymnKKM2pAkix5)
 
-# Welkom bij het Feestcomité Sint-Denijs
+# Welkom bij het Feestcomite Sint-Denijs
 
 Wij zijn een enthousiaste groep vrijwilligers die zich inzet om leuke activiteiten te organiseren in Sint-Denijs. Met veel plezier bouwen we verder aan de tradities van ons dorp en brengen we mensen samen voor gezellige momenten.
 
