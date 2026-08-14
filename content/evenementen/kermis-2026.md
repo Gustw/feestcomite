@@ -46,6 +46,10 @@ programma:
 links:
   - label: Inschrijving Rommelmarkt
     url: https://forms.gle/q2q3CwvUBqpw46Su9
+  - label: Inschrijving Bakwedstrijd
+    url: https://forms.gle/dgbcymnKKM2pAkix5
+  - label: 'Inschrijving per mail: Gekke Kermis loop'
+    url: gekkekermisloop@gmail.com
 fotos: []
 tags:
   - kermis
