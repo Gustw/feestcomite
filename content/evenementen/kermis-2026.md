@@ -50,7 +50,9 @@ links:
     url: https://forms.gle/dgbcymnKKM2pAkix5
   - label: 'Inschrijving per mail: Gekke Kermis loop'
     url: gekkekermisloop@gmail.com
-fotos: []
+fotos:
+  - image: /images/uploads/ommegang-2026-voorbeeld.jpg
+    caption: ''
 tags:
   - kermis
   - 2026
