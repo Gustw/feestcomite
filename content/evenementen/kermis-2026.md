@@ -26,7 +26,7 @@ programma:
   - dag: Zaterdag 19 september • KERKPLEIN
     tijd: 14:00
     beschrijving: KUBBtoernooi Chiro Ter Plekke
-    link: ''
+    link: forms.gle/7Sz4iZMinP86Ew7y6
   - dag: Zaterdag 19 september • KERKPLEIN
     tijd: 21:30
     beschrijving: TEEDEE Chiro Ter Plekke
