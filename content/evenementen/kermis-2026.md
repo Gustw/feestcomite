@@ -53,7 +53,7 @@ links:
   - label: Inschrijving Bakwedstrijd
     url: https://forms.gle/dgbcymnKKM2pAkix5
   - label: 'Inschrijving per mail: Gekke Kermis loop'
-    url: https://www.feestcomitesintdenijs.be/pagina's/gekke-kermisloop
+    url: https://www.feestcomitesintdenijs.be/paginas/gekke-kermisloop
 fotos:
   - image: /images/uploads/PXL_20250919_162619992 (1).jpg
     caption: ''
