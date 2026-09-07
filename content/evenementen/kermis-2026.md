@@ -10,7 +10,7 @@ programma:
   - dag: Vrijdag 18 september • KERKPLEIN
     tijd: 18:00
     beschrijving: De gekke kermisloop voor jong en oud
-    link: https://www.feestcomitesintdenijs.be/pagina's/gekke-kermisloop
+    link: https://www.feestcomitesintdenijs.be/paginas/gekke-kermisloop
   - dag: Vrijdag 18 september
     tijd: 19:00
     beschrijving: Kaas- en wijnavond • Harmonie De Verenigde Vrienden o.l.v. Wouter Vangheluwe
