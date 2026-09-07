@@ -14,7 +14,7 @@ programma:
   - dag: Vrijdag 18 september
     tijd: 19:00
     beschrijving: Kaas- en wijnavond • Harmonie De Verenigde Vrienden o.l.v. Wouter Vangheluwe
-    link: kaarten@de-verenigde-vrienden.be
+    link: mailto:kaarten@de-verenigde-vrienden.be
   - dag: Zaterdag 19 september • CAFE MAURICE
     tijd: 13:00
     beschrijving: Wielerwedstrijd Meisjes ind./jun. 1.16 + U17
