@@ -34,7 +34,7 @@ programma:
   - dag: Zondag 20 september • TUIN VAN ADEM & ETEN
     tijd: 10:00 tot 12:00
     beschrijving: Plakwaaiermaaksessie kinderen 8 tot 12 jaar • €5
-    link: info@tuinvanademeneten.be
+    link: mailto:info@tuinvanademeneten.be
   - dag: Zondag 20 september • KERKPLEIN
     tijd: 10:00
     beschrijving: Rommelmarkt
@@ -53,7 +53,7 @@ links:
   - label: Inschrijving Bakwedstrijd
     url: https://forms.gle/dgbcymnKKM2pAkix5
   - label: 'Inschrijving per mail: Gekke Kermis loop'
-    url: gekkekermisloop@gmail.com
+    url: mailto:gekkekermisloop@gmail.com
 fotos:
   - image: /images/uploads/PXL_20250919_162619992 (1).jpg
     caption: ''
