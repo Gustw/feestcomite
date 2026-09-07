@@ -5,7 +5,7 @@ subtitle: Samen maken we er een feest van!
 
 # Inschrijvingen Kermis 2026
 
-Gekke Kermis loop om **18:00** • Inschrijven via [deze pagina](https://www.feestcomitesintdenijs.be/pagina's/gekke-kermisloop)
+Gekke Kermis loop om **18:00** • Inschrijven via [deze pagina](https://www.feestcomitesintdenijs.be/paginas/gekke-kermisloop)
 
 Rommelmarkt opstart om **9:00** en start om **10:00** • Inschrijven via [formulier ](https://forms.gle/q2q3CwvUBqpw46Su9)
 
