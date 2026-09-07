@@ -10,7 +10,7 @@ programma:
   - dag: Vrijdag 18 september • KERKPLEIN
     tijd: 18:00
     beschrijving: De gekke kermisloop voor jong en oud
-    link: gekkekermisloop@gmail.com
+    link: https://www.feestcomitesintdenijs.be/pagina's/gekke-kermisloop
   - dag: Vrijdag 18 september
     tijd: 19:00
     beschrijving: Kaas- en wijnavond • Harmonie De Verenigde Vrienden o.l.v. Wouter Vangheluwe
@@ -53,7 +53,7 @@ links:
   - label: Inschrijving Bakwedstrijd
     url: https://forms.gle/dgbcymnKKM2pAkix5
   - label: 'Inschrijving per mail: Gekke Kermis loop'
-    url: mailto:gekkekermisloop@gmail.com
+    url: https://www.feestcomitesintdenijs.be/pagina's/gekke-kermisloop
 fotos:
   - image: /images/uploads/PXL_20250919_162619992 (1).jpg
     caption: ''
